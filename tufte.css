@@ -93,7 +93,7 @@ dt {
   font-weight: bold;
 }
 
-section.bibliography > p:not(::first-line) {
+.bibliography > p:not(::first-line) {
   text-indent: 0.5in;
 }
 
