@@ -93,6 +93,10 @@ dt {
   font-weight: bold;
 }
 
+section .bibliography > p {
+   margin-left: 40px;
+}
+
 hr {
   display: block;
   height: 1px;
