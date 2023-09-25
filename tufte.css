@@ -17,6 +17,24 @@
   font-display: swap;
 }
 
+/* Tufte CSS styles */
+html {
+  font-size: 15px;
+}
+
+body {
+  width: 87.5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12.5%;
+  font-family: et-book, "Iowan Old Style", Palatino, "Palatino Linotype",
+    "Palatino LT STD", "URW Palladio L", "Book Antiqua", serif;
+  background-color: #fffff8;
+  color: #111;
+  max-width: 1400px;
+  counter-reset: sidenote-counter;
+}
+
 @font-face {
   font-family: "et-book";
   src:
@@ -45,32 +63,6 @@
   font-display: swap;
 }
 
-/* Tufte CSS styles */
-html {
-  font-size: 15px;
-}
-
-body {
-  width: 87.5%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 12.5%;
-  font-family: et-book, "Iowan Old Style", Palatino, "Palatino Linotype",
-    "Palatino LT STD", "URW Palladio L", "Book Antiqua", serif;
-  background-color: #fffff8;
-  color: #111;
-  max-width: 1400px;
-  counter-reset: sidenote-counter;
-}
-
-/* Adds dark mode */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #151515;
-    color: #ddd;
-  }
-}
-
 h1 {
   font-weight: 400;
   margin-top: 4rem;
@@ -95,6 +87,10 @@ h3 {
   margin-top: 2rem;
   margin-bottom: 1.4rem;
   line-height: 1;
+}
+
+dt {
+  font-weight: bold;
 }
 
 hr {
@@ -533,8 +529,4 @@ label.margin-toggle:not(.sidenote-number) {
   img {
     width: 100%;
   }
-}
-
-dt {
-  font-weight: bold;
 }
