@@ -93,19 +93,8 @@ dt {
   font-weight: bold;
 }
 
-section.bibliography > p {
-  text-indent: 0;
-  margin-left: 0;
-}
-
-section.bibliography > p::first-line {
-  text-indent: 0;
-  margin-left: 0;
-}
-
 section.bibliography > p:not(::first-line) {
   text-indent: 0.5in;
-  margin-left: 0;
 }
 
 hr {
