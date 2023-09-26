@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-img {
-  min-height: 100%;
-  max-width: 100%;
-}
-
-/* Import ET Book styles
-   adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */
-
 @font-face {
   font-family: "et-book";
   src:
@@ -20,6 +12,39 @@ img {
   font-weight: normal;
   font-style: normal;
   font-display: optional;
+}
+
+@font-face {
+  font-family: "et-book";
+  src:
+    url("https://res.cloudinary.com/dfxzjnmkv/raw/upload/v1695342908/et-book/italic/etbookot-italic-webfont_umezky.woff2")
+      format("woff2"),
+    url("https://res.cloudinary.com/dfxzjnmkv/raw/upload/v1695342891/et-book/italic/etbookot-italic-webfont_j7tm41.woff")
+      format("woff"),
+    url("https://res.cloudinary.com/dfxzjnmkv/raw/upload/v1695342874/et-book/italic/ETBookOT-Italic_mhfzbr.otf")
+      format("opentype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: "et-book";
+  src:
+    url("https://res.cloudinary.com/dfxzjnmkv/raw/upload/v1695342757/et-book/bold/etbookot-bold-webfont_oppihv.woff2")
+      format("woff2"),
+    url("https://res.cloudinary.com/dfxzjnmkv/raw/upload/v1695342734/et-book/bold/etbookot-bold-webfont_sxfqyj.woff")
+      format("woff"),
+    url("https://res.cloudinary.com/dfxzjnmkv/raw/upload/v1695342712/et-book/bold/ETBookOT-Bold_mhx1w1.otf")
+      format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: optional;
+}
+
+img {
+  min-height: 100%;
+  max-width: 100%;
 }
 
 /* Tufte CSS styles */
@@ -76,34 +101,6 @@ section > p,
 section > footer,
 section > table {
   width: 55%;
-}
-
-@font-face {
-  font-family: "et-book";
-  src:
-    url("https://res.cloudinary.com/dfxzjnmkv/raw/upload/v1695342908/et-book/italic/etbookot-italic-webfont_umezky.woff2")
-      format("woff2"),
-    url("https://res.cloudinary.com/dfxzjnmkv/raw/upload/v1695342891/et-book/italic/etbookot-italic-webfont_j7tm41.woff")
-      format("woff"),
-    url("https://res.cloudinary.com/dfxzjnmkv/raw/upload/v1695342874/et-book/italic/ETBookOT-Italic_mhfzbr.otf")
-      format("opentype");
-  font-weight: normal;
-  font-style: italic;
-  font-display: optional;
-}
-
-@font-face {
-  font-family: "et-book";
-  src:
-    url("https://res.cloudinary.com/dfxzjnmkv/raw/upload/v1695342757/et-book/bold/etbookot-bold-webfont_oppihv.woff2")
-      format("woff2"),
-    url("https://res.cloudinary.com/dfxzjnmkv/raw/upload/v1695342734/et-book/bold/etbookot-bold-webfont_sxfqyj.woff")
-      format("woff"),
-    url("https://res.cloudinary.com/dfxzjnmkv/raw/upload/v1695342712/et-book/bold/ETBookOT-Bold_mhx1w1.otf")
-      format("opentype");
-  font-weight: bold;
-  font-style: normal;
-  font-display: optional;
 }
 
 h2 {
