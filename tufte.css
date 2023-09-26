@@ -50,6 +50,7 @@ img {
 /* Tufte CSS styles */
 html {
   font-size: 15px;
+  text-rendering: auto;
 }
 
 body {
