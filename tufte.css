@@ -19,7 +19,7 @@ img {
       format("opentype");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: optional;
 }
 
 /* Tufte CSS styles */
@@ -89,7 +89,7 @@ section > table {
       format("opentype");
   font-weight: normal;
   font-style: italic;
-  font-display: swap;
+  font-display: optional;
 }
 
 @font-face {
@@ -103,7 +103,7 @@ section > table {
       format("opentype");
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
+  font-display: optional;
 }
 
 h2 {
